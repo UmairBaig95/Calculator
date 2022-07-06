@@ -40,7 +40,10 @@ function CalculatorJavaScript(){
     globalVar.expressionArr.length = 0;
   }
 
-  this.display = function(val){
+  this.display = function(obj){
+debugger
+    var val = obj.value;
+    
     var last = globalVar.expressionArr.at(-1);
     if(val === '-' || val === '+'  || val === '*' || val === '/')
     { 

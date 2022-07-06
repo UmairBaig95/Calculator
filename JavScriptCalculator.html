@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Calculator</title>
+    <link href="calculatorStyle.css" rel="stylesheet">
+   
+</head>
+<body>
+    <div id="calculator" class="calculator-grid">
+
+          <textarea id="txtResult" class="output"> </textarea>
+          <button name="data-all-clear" class="span-two"onclick="calculatorJavascript.allClear()">AC</button>
+          <button id="delele"type="button" name="data-delete"onclick="calculatorJavascript.delele()" >DEL</button>
+          <button id="btnDiv" type="button" name="data-operation"onclick="calculatorJavascript.display('/')">÷</button>
+          <button id="btn1" type="button" name="data-valber" onclick="calculatorJavascript.display(1)" >1</button>
+          <button id="btn2" type="button" name="data-valber" onclick="calculatorJavascript.display(2)">2</button>
+          <button id="btn3" type="button" name="data-valber" onclick="calculatorJavascript.display(3)">3</button>
+          <button id="btnMultiply" type="button" name="data-operation"onclick="calculatorJavascript.display('*')">*</button>
+          <button id="btn4" type="button" name="data-valber" onclick="calculatorJavascript.display(4)">4</button>
+          <button id="btn5" type="button" name="data-valber" onclick="calculatorJavascript.display(5)" >5</button>
+          <button id="btn6" type="button" name="data-valber" onclick="calculatorJavascript.display(6)">6</button>
+          <button id="btnAdd" type="button" name= "data-operation" onclick="calculatorJavascript.display('+')" >+</button>
+          <button id="btn7" type="button" name="data-valber" onclick="calculatorJavascript.display(7)">7</button>
+          <button id="btn8" type="button" name="data-valber" onclick="calculatorJavascript.display(8)">8</button>
+          <button id="btn9" type="button" name="data-valber" onclick="calculatorJavascript.display(9)">9</button>
+          <button id="btnSub" type="button" name= "data-operation"onclick="calculatorJavascript.display('-')">-</button>
+          <button id="btnDot" type="button" name="data-valber"onclick="calculatorJavascript.display('.')">.</button>
+          <button id="btn0" type="button" name="data-valber" onclick="calculatorJavascript.display(0)">0</button>
+          <button id="btEqual" type="button" name="data-equals" class="span-two" onclick="calculatorJavascript.equal()" >=</button>
+    </div>
+    <script language="JavaScript" src="CalculatorWithJavaScript.js" ></script>
+</body>
+</html>
